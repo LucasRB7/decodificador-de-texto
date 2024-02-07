@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/style/style.css">
     <title>Decodificador de Texto</title>
 </head>
 <body>
-    
+    <picture>
+        <video class="backgroundVideo" autoplay loop muted src="src/videos/pexels.mp4" ></video>
+    </picture>   
+    <section class="sectionMain">
+        <main class="containerAll">                
+            <section class="containerIn" >
+                <input autofocus class="textInput" type="text" id="text" placeholder="Digite o texto...">
+                <section class="btns">
+                    <button class="btn">Criptografar</button>
+                    <button class="btn">Descriptografar</button>
+                </section>            
+            </section>
+            <aside class="containerAside">
+                <section class="textCripto" id="textCripto">
+                    
+                </section>
+                <button class="btn">Copiar</button>
+            </aside>
+        </main>
+    </section>    
+    <footer>  
+        <a target="_blank" href="http://www.github.com/LucasRB7"><h3>Desenvolvidor por Lucas R Bevilaqua</h3></a>
+    </footer>
+    <script src="./src/Js/index.js"></script>
 </body>
 </html>
